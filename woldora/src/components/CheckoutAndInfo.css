@@ -1,0 +1,20 @@
+div2 {
+    width: 800px;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #eeebdd;
+    color: #1B1717;
+    border: solid;
+
+}
+
+div3 {
+    width: 800px;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    align-items: right;
+    border: solid;
+}
