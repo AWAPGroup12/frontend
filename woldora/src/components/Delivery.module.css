@@ -1,0 +1,46 @@
+.deliveryContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1B1717;
+    border: 2px solid #810000;
+    font-weight: bold;
+}
+
+.deliveryContainer span{
+    padding-left: 10px;
+}
+
+.deliveryInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #810000;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+
+.payment {
+    margin-top: 20px;
+}
+
+.price {
+    align-self: center;
+    padding: 15px;
+}
+
+.item{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.itemPrice {
+    background-color: beige;
+}
