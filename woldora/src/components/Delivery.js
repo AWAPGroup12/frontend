@@ -6,6 +6,7 @@ export default function Delivery() {
         <div className={styles.deliveryContainer}>
             <div>
                 <span>Estimated delivery time:</span>
+                <span> 1h 5min </span>
             </div>
             <div className={styles.deliveryInfo}>
                 <div className={styles.item}>
