@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Recommendations from './components/Recommendations';
 import Orderhistory from './components/Orderhistory';
 import Search from './components/Search';
+import Delivery from './components/Delivery';
 import styles from './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
     
