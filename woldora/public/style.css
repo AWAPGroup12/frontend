@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #810000;
+}
+
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #810000;
+    
+}
+.search-btn {
+    color: #810000;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #810000;
+    display: flex;
+}
