@@ -1,0 +1,19 @@
+.button{
+  text-transform: uppercase;
+  background-color:gainsboro ;
+  color:rgba(43, 113, 226, 0.87);
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+  display: inline-flexbox;
+  font-size: 20 px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.btn {
+  padding-top: 30px;
+  padding-left: 900px;
+}

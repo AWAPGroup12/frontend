@@ -1,0 +1,30 @@
+.rightbox {
+  display: inline-block;
+ margin-left: 35px;
+ margin-top: 30px;
+flex-direction: column;
+width: 510px;
+height: 350px;
+border-style: solid;
+border-color: gray;
+
+}
+.cat {
+background-color: rgba(0, 162, 255, 0.637);
+width: 150px;
+height: 40px;
+font-size: 25px;
+margin-top: 0px;
+}
+
+.cont {
+font-size: 30px;
+font-weight: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imageClass{
+  width:500px;
+  height:340px;
+  background-color: white;
+}
