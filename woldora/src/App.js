@@ -4,25 +4,33 @@ import Header from './components/Header';
 import Recommendations from './components/Recommendations';
 import Orderhistory from './components/Orderhistory';
 import Search from './components/Search';
+import Login from './components/Login';
 import styles from './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Register from './components/Register';
     
 // Search bar...
 
 
 function App() {
   return (
+    <>
     <BrowserRouter>
-      <Header> </Header> 
-     <div>
-        <Routes>
-          <Route path="/" element={ <Recommendations /> }/>
-          <Route path="/Orderhistory" element={ <Orderhistory /> } />
-        </Routes>  
-         
-      </div>
-      
+      <Header> </Header>   
+
+        <div>
+        
+          <Routes>
+            <Route path="" element={ <Recommendations /> }/>
+            <Route path="/Login" element={ <Login /> } />
+            <Route path="/Login/Register" element= { <Register/>} />
+            <Route path="/Header" element={ <Header/> } />     
+          </Routes>           
+        </div>
+
     </BrowserRouter>
+    </>
+
   );
 }
 

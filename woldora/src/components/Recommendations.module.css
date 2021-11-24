@@ -10,14 +10,17 @@
     width: 80%;
     margin: auto;
     margin-top: 5px;
-    max-width: 1500px;    
+    max-width: 1500px;  
     padding-left: auto;
     padding-right: auto;
     font-weight: 300;
+    
+    
 
 
 
 }
+
 .recBox { 
     list-style: none;
     float: left;
@@ -28,6 +31,9 @@
     margin-right: 50px;
     margin-bottom: 50px;
     text-align: center;
+    display: inline-block;
+    color: #810000;
+    font-weight: 500;
 
 
 }
@@ -36,4 +42,5 @@
     border-radius: 50%;
     
 }
+
 

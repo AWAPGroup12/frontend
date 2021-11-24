@@ -15,7 +15,7 @@
     padding-right: auto;
     font-weight: 300;
     height: 300px;
-
+    
 
 }
 
@@ -34,6 +34,8 @@
     padding-left: auto;
     padding-right: auto;
     font-weight: 300;
+    align-items: center;
+
     
 
 }
@@ -41,17 +43,30 @@
 .awapfood{
     margin-top: 100px;
     font-size: 50px;
-    font-weight: 40px;
+    font-weight: 100;
     margin-left: 230px;
     display: flex;
+    display: inline-block;
+    color: #810000;
+    margin-bottom: 100px;
+    max-width: 1500px;  
+    
+
 }
 
 
 .logIn {  
-
-    margin-right: 200px;
-    margin-top: 100px;
-    margin-left: 700px;
+    font-size: 22px;
+    width: 80%;
+    max-width: 80%;
+    justify-content: space-evenly;
+    display: flex;
+    max-width: 200px;
+    margin-top: 250px;
+    margin-left: 600px;
+   
+   
+ 
     
 }
 
