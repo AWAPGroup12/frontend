@@ -8,19 +8,16 @@ export default function Header() {
 
   return (
     
+    <>
     
     <div className={styles.awapfoodBackground}>
-
-
-
-     <Link to="Orderhistory">  <button> Order History </button> </Link>
     
       <div className={styles.container}>
-        <div className={styles.awapfood}> AWAP Food
-
+      <Link to="/"> <div className={styles.awapfood}> Woldora </div> </Link>
+      
         <div className={styles.logIn}> 
-             <button> Log in </button> 
-             <button> Cart </button>
+        <Link to="Login">  <button> Log in </button> </Link>
+        <Link to=""> <button> Shopping Cart </button>  </Link>
         </div>
 
        </div>
@@ -29,9 +26,8 @@ export default function Header() {
 
      </div>
 
-     
+     </>
 
-    </div>
 
   )
 }
