@@ -17,7 +17,7 @@ export default function Header() {
       
         <div className={styles.logIn}> 
         <Link to="Login">  <button> Log in </button> </Link>
-        <Link to=""> <button> Shopping Cart </button>  </Link>
+        <Link to="ShoppingCart"> <button> Shopping Cart </button>  </Link>
         </div>
 
        </div>

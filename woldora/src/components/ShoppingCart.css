@@ -1,0 +1,32 @@
+.shoppingcart {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #1B1717;
+}
+
+.cartcontents {
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    border: solid #810000;
+    background-color:#EEEBDD;
+}
+
+.deliveryinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    border: solid #810000;
+    background-color: #EEEBDD;
+}
