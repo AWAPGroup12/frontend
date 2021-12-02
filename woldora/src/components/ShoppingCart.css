@@ -18,6 +18,13 @@
     background-color:#EEEBDD;
 }
 
+.checkout {
+    display: flex;
+    position: relative;
+    top: 82%;
+    left: 100%;
+}
+
 .deliveryinfo {
     display: flex;
     flex-direction: column;
@@ -30,3 +37,4 @@
     border: solid #810000;
     background-color: #EEEBDD;
 }
+

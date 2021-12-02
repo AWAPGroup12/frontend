@@ -14,10 +14,11 @@ const CartContents = () => {
     return (
         <section className="cartcontents">
             <h1>Shopping Cart Contents</h1>
-            <CheckoutButton />
-            <RemoveButton />
-            <AddButton />
-            <DeleteButton />
+                <RemoveButton />
+                <AddButton />
+                <DeleteButton />
+                <CheckoutButton />
+                <h4>Total Price:</h4>
         </section>
     );
 };
