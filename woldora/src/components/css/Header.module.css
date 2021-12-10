@@ -1,8 +1,8 @@
 .header {
     display: flex;
-    background-color: rgba(0, 17, 255, 0.781);
+    background-color:#810000;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     font-weight:700px ;
     align-items: center;
     height: 70px;
@@ -15,6 +15,7 @@
     font-size: 35px;
 
   }
+
 
   ul {
     list-style-type: none;

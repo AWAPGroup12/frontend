@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import styles from "./Login.module.css"
 import { Link } from 'react-router-dom'
+import { Axios } from 'axios';
 
 
 
-export default function Login() {
+export default function Login(){
+    
     return (
         <div className={styles.loginContainer}>
 
             <div className={styles.loginContainer}>Email
-                <input type="text" />
+                <input type="email" />
             </div>
 
             <div className={styles.loginContainer}>Password

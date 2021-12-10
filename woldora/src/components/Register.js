@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Register.module.css';
 import { Link } from 'react-router-dom'
 
+
 export default function Register() {
     return (
         <div className={styles.registerContainer}>
@@ -16,7 +17,7 @@ export default function Register() {
             </div>
 
             <div className={styles.inputBox}>Email
-                <input type="text" />
+                <input type="enail" />
             </div>
 
             <div className={styles.inputBox}>Phone
@@ -24,13 +25,12 @@ export default function Register() {
             </div>
 
             <div className={styles.inputBox1}>Password
-                <input type="Password" />
+                <input type="password" />
             </div>
 
             <button> Create Account </button>
 
         </div>
-        
-    )
-}
 
+    ) 
+}

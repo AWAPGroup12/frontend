@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./Delivery.module.css";
+import { Link } from 'react-router-dom'
 
 export default function Delivery() {
     return (

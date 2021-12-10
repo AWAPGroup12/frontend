@@ -1,19 +1,25 @@
 .button{
-  text-transform: uppercase;
-  background-color:gainsboro ;
-  color:rgba(43, 113, 226, 0.87);
-  padding: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-  text-align: center;
-  display: inline-flexbox;
-  font-size: 20 px;
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border: 1px solid gray;
-  border-radius: 20px;
+
+  display: flex;
+    color: #810000;
+    font-size: 22px;
+    font-size: 33px;
+    margin-top: 20px;
+    max-width: 100%;
+    margin-left: 190px;
+    color:  #810000;
 }
+
+.buttons {
+  text-decoration: none;
+  display: inline-block;
+}
+
 .btn {
-  padding-top: 30px;
-  padding-left: 900px;
+   width: 80%;
+   margin: auto;
+   margin-top: 5px;
+   max-width: 1500px; 
+   color: #810000;
+
 }

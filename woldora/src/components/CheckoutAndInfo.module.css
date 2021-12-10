@@ -1,0 +1,88 @@
+.Header {
+    font-weight: 100;
+    color: #1B1717;
+    display: flex;
+    font-size: 24px;
+    height: 300px;
+}
+
+.CheckoutAndInfo {
+    display: flex;
+    font-size: 19px;
+    width: 80%;
+    margin: auto;
+    margin-top: -90px;
+    max-width: 1500px;    
+    align-items: center;
+    font-weight: 100;
+    margin-left: 430px;
+    margin: auto;
+    max-width: 1040px;
+    width: 80%;
+    
+
+}
+
+.Orderhistory{
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-top: 10px;
+    background-color: #EEEBDD;
+    border-color: #810000;
+    font-weight: bold;
+
+}
+
+.Checkout{
+    
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-top: 10px;
+    background-color: #EEEBDD;
+    border-color: #810000;
+    font-weight: bold;
+}
+
+.modifyButtons {
+    display: flex;
+    margin-left: 600px;
+    font-size: 33px;
+    font-weight: 100;
+    margin-top: auto;
+    
+}
+
+.infoSlot{
+    margin-left: 70px;
+    font-size: 15px;
+    display: flex;   
+     
+}
+
+.Instructions{
+    margin-top: 40px;
+    padding: 1em;
+    border-radius: 5px;
+    line-height: 1.4;
+    border: 2px solid;
+    outline: none;
+    font-weight: 500;
+    font-size: 16;
+}
+
+.deliveryinfo{
+    font-weight: 100;
+}
+.number{
+    display: flex;
+    font-weight: 100;
+
+}
+.counter{
+    position:relative; left:500px;
+    margin-left: 10px;
+}

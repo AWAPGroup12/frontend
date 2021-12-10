@@ -1,14 +1,35 @@
 import React from 'react'
 import Product from './Product'
+import { Link } from 'react-router-dom'
+import styles from "../components/Hamburger.module.css"
+
 export default function Hamburger() {
   return (
-    <div>
-      <Product image="/images/hamburger1.jpg" name="Hamburger" price="$12"></Product>
-      <Product image="/images/hamburger2.jpg" name="Hamburger" price="$15"></Product>
-      <Product image="/images/hamburger3.jpg" name="Hamburger" price="$18"></Product>
-      <Product image="/images/hamburger4.jpg" name="Hamburger" price="$8"></Product>
-      <Product image="/images/hamburger5.jpg" name="Hamburger" price="$10"></Product>
-      <Product image="/images/hamburger6.jpg" name="Hamburger" price="$12"></Product>
+    <div className={styles.container}>
+      <Product
+        image="/images/hamburger2.jpg"
+        name="Hamburger"
+        price="$12"
+      />
+
+      <Product
+        image="/images/hamburger1.jpg"
+        name="Cheese burger"
+        price="$15"
+      />
+
+      <Product
+        image="/images/hamburger3.jpg"
+        name="Bacon burger"
+        price="$18"
+      />
+
+      <Product
+        image="/images/hamburger4.jpg"
+        name="Double Cheese burger"
+        price="$8"
+      />
+
     </div>
   )
 }
