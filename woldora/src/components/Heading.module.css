@@ -1,0 +1,21 @@
+.ha{
+    font-size: 30px;
+    font-weight: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: green;
+    padding-top: 15px;
+    }
+
+    .hen{
+        width: 450px;
+        height: 200px;
+        flex-direction: column;
+    
+    }
+
+    .res {
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: center;
+    }
