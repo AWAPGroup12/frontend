@@ -1,47 +1,35 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Product from './Product'
-import styles from "../components/Sushi.module.css"
-
+import styles from "../components/Items.module.css"
+import axios from 'axios';
+import { Link } from 'react-router-dom'
 
 
 export default function Sushi() {
+  const [sushis, setSushis] = useState([])
+
+  useEffect(() => {
+    // Update the document title using the browser API
+    axios.get('http://localhost:3001/sushis').then((response) => {
+      console.log(response.data)
+      setSushis(response.data)
+    })
+  }, []);
+
   return (
     <div className={styles.container}>
-      <Product
-        image="/images/sushi1.jpg"
-        name="sushi"
-        price="$35"
-      />
 
-      <Product
-        image="/images/sushi2.jpg"
-        name="sushi"
-        price="$40"
-      />
+      <div className={styles.container} > {sushis.map(sushi => {
+        return <div className={styles.itembox}>
 
-      <Product
-        image="/images/sushi3.jpg"
-        name="sushi"
-        price="$45"
-      />
+          <div className={styles.itemname}> {sushi.name} {sushi.price}€ </div>
 
-      <Product
-        image="/images/sushi4.jpg"
-        name="sushi"
-        price="$50"
-      />
+          <div> <Product image="/images/sushi1.jpg" /> </div>
+        </div>
 
-      <Product
-        image="/images/sushi5.jpg"
-        name="sushi"
-        price="$40"
-      />
+      })
 
-      <Product
-        image="/images/sushi6.jpg"
-        name="sushi"
-        price="$45"
-      />
+      } </div>
 
     </div>
   )

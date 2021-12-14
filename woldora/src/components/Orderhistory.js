@@ -9,9 +9,9 @@ export default function Orderhistory() {
             Order History
 
             <div className={styles.historydata}> 
-            <div> 40 kpl Chicken McNuggets™ + 6 dippiä. 19,10 € </div>
-            <div> Ben & Jerry’s Half Baked 465ml. 8,90 € </div>
-            <div> Large Pepperoni Stuffed Cheesy Crust & Pepsi Max 1,5l 20€ </div>
+            <div> Order 1 </div>
+            <div>  Order 2 </div>
+            <div>  Order 3 </div>
 
             </div>
         </div>

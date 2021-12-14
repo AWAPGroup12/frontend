@@ -1,46 +1,31 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Product from './Product'
 import { Link } from 'react-router-dom'
-import styles from "../components/Pizza.module.css"
+import styles from "../components/Items.module.css"
+import axios from 'axios'
 
 export default function Pizza() {
+
+  const [pizzas, setPizzas] = useState([])
+
+  useEffect(() => {
+    axios.get('http://localhost:3001/pizzas').then((response) => {
+      console.log(response.data)
+      setPizzas(response.data)
+    })
+
+  }, []);
+
   return (
     <div className={styles.container}>
-      <Product
-        image="/images/pizza1.jpg"
-        name="pizza"
-        price="$10"
-      />
 
-      <Product
-        image="/images/pizza2.jpg"
-        name="pizza"
-        price="$15"
-      />
+      <div className={styles.container} > {pizzas.map(pizza => {
+        return <div className={styles.itembox}>  {pizza.name} {pizza.price}€
+          <Product image="/images/pizza1.jpg" /> </div>
+      })
 
-      <Product
-        image="/images/pizza3.jpg"
-        name="pizza"
-        price="$18"
-      />
+      } </div>
 
-      <Product
-        image="/images/pizza4.jpg"
-        name="pizza"
-        price="$10"
-      />
-
-      <Product
-        image="/images/pizza5.jpg"
-        name="pizza"
-        price="$12"
-      />
-
-      <Product
-        image="/images/pizza6.jpg"
-        name="pizza"
-        price="$15"
-      />
     </div>
 
   )

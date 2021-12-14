@@ -1,18 +1,18 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './Recommendations.module.css';
 import { Link } from 'react-router-dom'
 import axios from 'axios';
 
-
 export default function Recommendations() {
+    const [restaurants, setRestaurants] = useState([])
 
     useEffect(() => {
         // Update the document title using the browser API
-        axios.get('http://localhost:3001/customers').then((response) => {
+        axios.get('http://localhost:3001/restaurants').then((response) => {
             console.log(response.data)
+            setRestaurants(response.data)
         })
     }, []);
-
 
     return (
         <>

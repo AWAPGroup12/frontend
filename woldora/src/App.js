@@ -43,6 +43,7 @@ function App() {
             <Route path="Pizza" element={<Pizza />} />
             <Route path="Hamburger" element={<Hamburger />} />
             <Route path="Drinks" element={<Drinks />} />
+            <Route path="Checkout/Delivery" element={<Delivery />} />
           </Routes>
         </div>
       </BrowserRouter>

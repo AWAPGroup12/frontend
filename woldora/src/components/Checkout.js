@@ -29,7 +29,7 @@ function Checkout() {
         </h1>
 
         <h5>
-          <button className={styles.Checkout}>CHECKOUT</button>
+          <Link to="Delivery"> <button className={styles.Checkout}>CHECKOUT</button> </Link>
         </h5>
 
       </wrapper>

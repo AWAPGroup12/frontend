@@ -1,12 +1,13 @@
 import React from 'react'
 import './ShoppingCart.css';
+import { Link } from 'react-router-dom'
 
 function ShoppingCart() {
     return (
-      <section className="shoppingcart">
-          <CartContents />
-          <DeliveryInfo />
-      </section>
+        <section className="shoppingcart">
+            <CartContents />
+            <DeliveryInfo />
+        </section>
     );
 }
 
@@ -14,11 +15,11 @@ const CartContents = () => {
     return (
         <section className="cartcontents">
             <h1>Shopping Cart Contents</h1>
-                <RemoveButton />
-                <AddButton />
-                <DeleteButton />
-                <CheckoutButton />
-                <h4>Total Price:</h4>
+            <RemoveButton />
+            <AddButton />
+            <DeleteButton />
+            <CheckoutButton />
+            <h4>Total Price:</h4>
         </section>
     );
 };

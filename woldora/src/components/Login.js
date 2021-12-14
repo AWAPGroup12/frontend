@@ -5,8 +5,8 @@ import { Axios } from 'axios';
 
 
 
-export default function Login(){
-    
+export default function Login() {
+
     return (
         <div className={styles.loginContainer}>
 
