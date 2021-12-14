@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    background-color:#810000;
+    color: white;
+    font-size: 10px;
+    font-weight:700px ;
+    align-items: center;
+    height: 70px;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding: 10px;
+
+}
+  .Hel{
+    font-size: 35px;
+
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin-left: 70px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  

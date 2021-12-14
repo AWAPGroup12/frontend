@@ -1,0 +1,39 @@
+
+.container{
+    display: flex;
+    color: #1B1717;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    overflow: hidden;
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    max-width: 1500px;  
+    padding-left: auto;
+    padding-right: auto;
+    font-weight: 100;
+}
+
+.recBox { 
+    float: left;
+    width: 13%;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #810000;
+    font-weight: 100;
+
+
+}
+
+.recPhoto {
+    border-radius: 50%;
+    
+}
+
+

@@ -1,0 +1,48 @@
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1B1717;
+    font-weight: 500;
+   
+}
+.registerContainer input{
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+   
+}
+
+.registerContainer button {
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+    border-width: 7px;
+    margin-top: 10px;
+    background-color: #EEEBDD;
+    border-color: #810000;
+    font-weight: bold;
+}
+
+.inputBox {
+    display: flex;
+    margin-right: 20%;
+    margin-left: auto;
+    align-items: center;
+    font-weight: 500;
+    
+}
+
+.inputBox1 {
+    display: flex;
+    margin-right: 20%;
+    margin-left: auto;
+    align-items: center;
+    font-weight: 500;
+   
+}
